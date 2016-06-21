@@ -1,4 +1,0 @@
-all:
-	swig -python compression.i
-	gcc -fpic -c compressionmodule.c compression_wrap.c -I/usr/include/python2.7/
-	gcc -shared compressionmodule.o compression_wrap.o -o _compression.so
