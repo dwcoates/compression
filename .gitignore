@@ -1,0 +1,7 @@
+*~
+#*#
+*.pyc
+*.py
+*.o
+*.so
+compression_wrap*
